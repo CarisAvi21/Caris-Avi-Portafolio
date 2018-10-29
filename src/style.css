@@ -1,0 +1,31 @@
+body{
+    background: url('img/estadio.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.font-div{
+    width: 30%;
+}
+
+.card{
+    width: 200%;
+    height: 200%;
+}
+
+
+/*Responsive*/
+@media only screen and (min-width: 1198px){
+    .font-div{
+        padding: 42.5px 0px!important;
+    }
+}
+
+
