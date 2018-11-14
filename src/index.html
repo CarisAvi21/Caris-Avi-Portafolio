@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
     <title>Caris Avi</title>
@@ -15,12 +16,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4">
-                    <img src="./img/foto.jpg">
+                    <img class="foto" src="./img/foto.jpg">
                 </div>
 
                 <div class="col-lg-8 col-md-8">
                     <div class="d-flex flex-column">
-                        <div class="p-5 text-white">
+                        <div class="p-5 text-gray">
                             <div class="d-flex flex-row justify-content-between align-items-center">
                                 <h1 class="display-4"> Caris Avi </h1>
                             </div>
@@ -31,22 +32,25 @@
                         </div>
 
                         <div class="d-flex flex-row text-center text-white">
-                            <div class="p-6 font-div" data-toggle="collapse" data-target="#acerca">
+                            <a class="p-6 font-div btn" class="color" data-toggle="collapse" data-target="#acerca" href="#about" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
                                 <i class="fa fa-user fa-2x d-block"></i> Acerca de mi
-                            </div>
-                            <div class="p-6  font-div" data-toggle="collapse" data-target="#habilidades">
-                                <i class="fa fa-desktop fa-2x d-block"></i> Habilidades
-                            </div>
-                            <div class="p-6  font-div">
-                                <i class="fa fa-folder-open-o fa-2x d-block"></i> Mi portafolio
-                            </div>
-                            <div class="p-6  font-div">
-                                <i class="fa fa-envelope-o fa-2x d-block"></i> Contacto
-                            </div>
-                            <div>
-                                <i class="fa fa-users fa-2x d-block"></i> Mis Redes
-                            </div>
+                            </a>
 
+                            <a class="p-6 font-div btn" class="color" data-toggle="collapse" data-target="#habilidades" href="#hab" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+                                <i class="fa fa-desktop fa-2x d-block"></i> Habilidades
+                            </a>
+
+                            <a class="p-6 font-div btn" class="color" data-toggle="collapse" data-target="#portafolio" href="#port" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+                                <i class="fa fa-folder-open-o fa-2x d-block"></i> Mi portafolio
+                            </a>
+
+                            <a class="p-6 font-div btn" class="color" data-toggle="collapse" data-target="#contacto" href="#contact" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+                               <i class="fa fa-envelope-o fa-2x d-block"></i> Contacto
+                            </a>
+
+                            <a class="p-6 font-div btn" class="color" data-toggle="collapse" data-target="#redes" href="#red" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+                                <i class="fa fa-users fa-2x d-block"></i> Mis Redes
+                            </a>
                         </div>
                     </div>
                 
@@ -59,46 +63,23 @@
     <div class="container">
         <div class="collapse" id="acerca">
             <div class="p-5 text-white">
-                <h2>Soy Carolina Avilés</h2>
-                <p>Soy Front-end developer, me gusta crear cosas, aprender, etc...</p>
+                <h2>Mi nombre es Carolina Avilés</h2>
+                <p>Soy Front-end developer, disfruto de aprender cosas nuevas y ponerlas en practica, amo la lectura, escuchar música y pasar tiempo de calidad de con mi familia, gran fanática del fútbol americano</p>
             </div>
         </div>
 
         <div class="collapse" id="habilidades">
-            <div class="card card-deck">
-                <div class="card">
-                    <img src="./img/HTML5.png">
-                </div>
-
-                <div class="card">
-                    <img src="./img/javascript.png">
-                </div>
-                
-                <div class="card">
+                <div class="p-5" class="image-hab">
+                    <img src="./img/html.png">
+                    <img src="./img/JS.png">
                     <img src="./img/css3.png">
-                </div>
-                <div class="card">
                     <img src="./img/bootstrap.png">
-                </div>
-                <div class="card">
                     <img src="./img/firebase.png">
-                </div>
-                <div class="card">
                     <img src="./img/git.png">
-                </div>
-                <div class="card">
                     <img src="./img/github.png">
-                </div>
-                <div class="card">
                     <img src="./img/npm.png">
-                </div>
-                <div class="card">
                     <img src="./img/React.png">
                 </div>
-                
-            </div>
-                
-
             </div>
         </div>
 

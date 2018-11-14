@@ -1,24 +1,48 @@
 body{
-    background: url('img/estadio.jpg');
+    background: url('img/campo.jpeg');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
+    width: 100%;   
 }
 
-img{
+h1{
+    font-family: 'Black Ops One', cursive;
+}
+
+p{
+    font-family: 'Black Ops One', cursive;
+}
+
+.foto{
     height: 100%;
     width: 100%;
+    border-radius: 100%;
 }
 
 .font-div{
     width: 30%;
 }
 
-.card{
-    width: 200%;
-    height: 200%;
+.color {
+    background-color: black;
+    opacity: 15%;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: grey;
+    background-color:transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.image-hab{
+    width: 15px;
+    height: auto;
+}
+
 
 
 /*Responsive*/
