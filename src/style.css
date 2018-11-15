@@ -16,6 +16,11 @@ p{
     font-family: 'Black Ops One', cursive;
 }
 
+.card {
+    background-color: rgb(39, 36, 36);
+    opacity: .8;
+}
+
 .foto{
     height: 100%;
     width: 100%;
@@ -41,6 +46,21 @@ a {
 .image-hab{
     width: 15px;
     height: auto;
+}
+
+.image {
+    width: 300px;
+    height: auto;
+}
+
+.image-vis {
+    width: 360px;
+    height: 192PX;
+}
+
+.image-myPet {
+    width: 350px;
+    height: 192PX;
 }
 
 
