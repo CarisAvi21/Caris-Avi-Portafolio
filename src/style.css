@@ -48,6 +48,15 @@ a {
     height: auto;
 }
 
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 .image {
     width: 375px;
     height: 192px;
@@ -70,6 +79,17 @@ a {
     .font-div{
         padding: 42.5px 0px!important;
     }
+
+    body{
+        background: url('img/campo.jpeg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+        width: 100%;   
+    }
+
 }
 
 
