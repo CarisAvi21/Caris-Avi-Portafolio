@@ -43,10 +43,28 @@ a {
     -webkit-text-decoration-skip: objects;
 }
 
-.image-hab{
+/* .image-hab{
     width: 15px;
     height: auto;
+} */
+
+.github {
+    widows: 260px;
+    height: 100px;
 }
+
+.npm{
+    width: 260px;
+    height: auto;
+
+}
+
+.react {
+    width: 150px;
+    height: auto;
+}
+
+
 
 .row {
     display: -ms-flexbox;
